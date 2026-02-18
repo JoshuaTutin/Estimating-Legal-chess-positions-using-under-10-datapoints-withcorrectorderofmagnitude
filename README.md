@@ -1,3 +1,4 @@
 Tablebase data shows number of legal known chess positions for up to 7 pieces (for this code data for 8 pieces is included also). I tried extrapolating the data to estimate the total number of legal chess positions and got a value within the correct order of magnitude. Maybe with more data points added if tablebase increases, this could improve literature estimates.
 Both the estimate using the python code I used and the existing literature (https://github.com/tromp/ChessPositionRanking) give 4.8e44 as the estimated number of legal chess positions to the nearest power of 43 (although my confidence interval is more uncertain).
 
+This project required skills such as: Identifying patterns in a small dataset, applying recurrence and power-law models, and using statistical methods to estimate a total within the correct order of magnitude of existing literature (my result of 4.819e44 being reasonably close to the literature estimate of 4.822e44).
